@@ -1,0 +1,294 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css" integrity="sha512-1sCRPdkRXhBV2PBLUdRb4tMg1w2YPf37qatUFeS7zlBy7jJI8Lf4VHwWfZZfpXtYSLy85pkm9GaYVYMfw5BC1A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Protest+Guerrilla&display=swap" rel="stylesheet">
+    <title>CONTACT</title>
+
+</head>
+<style>
+  * {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  background: var(--bg);
+  
+}
+
+:root {
+--bg: #151F28;
+}
+
+.container {
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+
+background: var(--bg);
+margin-top: 45px;
+
+
+}
+
+.container ul {
+display: flex;
+position: relative;
+gap: 50px;
+}
+
+.container ul li {
+position: relative;
+list-style: none;
+width: 80px;
+height: 80px;
+display: flex;
+justify-content: center;
+align-items: center;
+cursor: pointer;
+transition: 0.5s;
+}
+.container ul li:before {
+content: "";
+position: absolute;
+inset: 30px;
+box-shadow: 0 0 0 10px var(--clr), 0 0 0 20px var(--bg), 0 0 0 22px var(--clr);
+transition: 0.5s;
+}
+
+.container ul li:hover:before {
+inset: 0;
+}
+
+.container ul li:after {
+content: "";
+position: absolute;
+inset: 0;
+background: var(--bg);
+transform: rotate(45deg);
+}
+.container ul li:hover {
+z-index: 1000;
+transform: scale(0.75);
+}
+
+.container ul li a {
+position: relative;
+text-decoration: none;
+color: var(--clr);
+font-size: 1.5em;
+z-index: 10;
+transition: 0.5s;
+}
+
+.container ul li a:hover {
+font-size: 3em;
+filter: drop-shadow(0 0 20px var(--clr)) drop-shadow(0 0 40px var(--clr))
+drop-shadow(0 0 60px var(--clr));
+}
+.home-content{
+
+    background: var(--bg);
+    font-family: "Protest Guerrilla", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    margin-top: 15px;
+    
+    align-items: center;
+
+
+}
+.home-content h1{
+  position: relative;
+ 
+  font-size: 70px;
+  font-weight: 700;
+  color: rgb(118, 161, 199);
+  display: flex;
+justify-content: center;
+align-items: center;
+
+}
+.home-content h1:hover{
+  cursor: pointer;
+  color: aquamarine;
+  }
+  .home-content h1::before{
+  content: " ";
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 100%;
+  height: 100%;
+  background: #081b29;
+  animation: showRight 1s ease forwards;
+  text-shadow: #cddce7;
+  animation-delay: 0.4s;
+
+
+
+
+  
+}
+
+
+
+@keyframes showRight{
+  100%{
+  width: 0;
+  }
+}
+
+
+
+  
+
+</style>
+ 
+  
+
+
+
+
+  <div class="home-content">
+        <h1 >Contact</h1>
+       </div>
+
+
+
+
+      <center class="nxt">
+       <div class="container1">
+        <form action="https://api.web3forms.com/submit" method="POST" class="form">
+            <h1>Get in touch</h1>
+            <input type="hidden" name="access_key" value="e4346a82-4852-407a-a583-eefa31cf17c7">
+            <label for="name"></label>
+            <input type="text" id="name" name="name" placeholder="𝒚𝒐𝒖𝒓 𝒏𝒂𝒎𝒆" required>
+            
+            <label for="email"></label>
+            <input type="email" id="email" name="email" placeholder="𝒚𝒐𝒖𝒓 𝒆𝒎𝒂𝒊𝒍" required>
+            
+            <label for="description"></label>
+            <textarea id="description" name="description" placeholder="𝒚𝒐𝒖𝒓 𝒎𝒆𝒔𝒔𝒂𝒈𝒆" rows="4" required></textarea>
+            
+            <input type="submit" value="🆂🆄🅱🅼🅸🆃" >
+            
+        </form>
+        <style>
+
+          .nxt{
+            margin-top: 60px;
+            margin-bottom: 0px;
+            
+
+            
+
+
+          }
+
+          .nxt h1{
+            font-family: "Jacques Francois Shadow", serif;
+  font-weight: 600;
+  font-style: normal;
+  color: aliceblue;
+          }
+          .nxt h1:hover{
+            color:blue;
+          }
+          
+      
+      .container1 {
+        
+          padding: 20px;
+          border-radius: 8px;
+          box-shadow: 0 0 10px rgba(231, 209, 209, 0.856);
+          width: 100%;
+          max-width: 400px;
+          justify-content: center;
+          align-items:center;
+          
+      }
+      
+      .form {
+          display: flex;
+          flex-direction: column;
+
+      }
+      
+      .form h1 {
+          margin-bottom: 20px;
+          font-size: 24px;
+          text-align: center;
+      }
+      
+      .form label {
+          margin-bottom: 5px;
+          font-weight: bold;
+      }
+      
+      .form input[type="text"],
+      .form input[type="email"],
+      .form textarea {
+          padding: 10px;
+          border: 1px solid #9dd6d8;
+          border-radius: 4px;
+          margin-bottom: 15px;
+          width: 100%;
+          box-sizing: border-box;
+      }
+      
+      .form input[type="submit"] {
+          background-color: #28b830;
+          color: white;
+          border: none;
+          padding: 10px;
+          border-radius: 4px;
+          cursor: pointer;
+          font-size: 16px;
+      }
+      
+      .form input[type="submit"]:hover {
+          background-color: #d6ca2a;
+      }
+      </style>
+    </div>
+  </center>
+
+
+    
+    <div class="container">
+        <ul>
+          <li style="--clr: #1877f2">
+            <a href="mailto:agashraj17@gmail.com">
+                <i class="fa-solid fa-square-envelope"></i>
+            </a>
+          </li>
+          <li style="--clr: #ff0000">
+            <a href="https://www.linkedin.com/in/agash-t-6b160629b/">
+              <i class="fa-brands fa-linkedin"></i>
+            </a>
+          </li>
+          <li style="--clr: #1da1f2">
+            <a href="https://github.com/agashash/portfolio-website.git">
+              <i class="fa-brands fa-github"></i>
+            </a>
+          </li>
+          <li style="--clr: #c32aa3">
+            <a href="https://www.instagram.com/ahh___ashh">
+              <i class="fa-brands fa-instagram"></i>
+            </a>
+          </li>
+          <li style="--clr: #25d366">
+            <a href="https://wa.me/8610712401">
+              <i class="fa-brands fa-whatsapp"></i>
+            </a>
+          </li>
+        </ul>
+        
+            
+</body>
+</html>

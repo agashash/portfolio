@@ -1,0 +1,275 @@
+
+*{
+  padding: 0px;
+  margin: 0px;
+}
+
+
+.navbar-brand ,.display-6{
+    font-family: "Nerko One", cursive;
+    font-weight: 400;
+    font-style: normal;
+  }
+
+ 
+.offcanvas-title  h5 {
+  font-family: "Josefin Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: weight;
+  font-style: normal;
+}
+
+.skill-item li{
+    font-family: "Nerko One", cursive;
+    font-weight: 400;
+    font-style: normal;}
+
+    
+
+.navbar-brand {
+    padding-left:500px;
+   
+}
+.navbar-brand:hover{
+    color: rgb(218, 111, 39);
+    
+    cursor: pointer;
+}
+
+.offcanvas-body li{
+
+   font-size:large;
+   font-weight: bold;
+   
+}
+
+.offcanvas-body{
+    background-color: rgb(116, 231, 235);
+}
+
+
+
+
+.education
+        {
+            background-color: rgba(0, 0, 0, 0.5); /* Semi-transparent background */
+            border-radius: 10px;
+            padding: 20px;
+            margin-bottom: 20px;
+        }
+ .education img {
+            max-width :75%;
+            height: auto;
+            border-radius: 10px;
+        }
+        .education p{
+          color:white;
+      }
+      .education h3{
+          color: #661496;
+      }
+
+      .education section{
+          height: 25px;
+          width: 25px;
+
+      }
+      .slideshow-container {
+        position: relative;
+        max-width: 60%;
+        margin: auto;
+        overflow: hidden;
+    }
+    
+    .slides {
+        display: flex;
+        transition: transform 0.5s ease-in-out;
+    }
+    
+    .slide {
+        min-width: 100%;
+        box-sizing: border-box;
+    }
+    
+    .slide img {
+        width: 100;
+        vertical-align: middle;
+    }
+    
+    button {
+        position:static;
+        top: 100%;
+        background-color: rgba(105, 93, 105, 0.5);
+        color: rgb(218, 229, 166);
+        border: none;
+        cursor: pointer;
+        padding: 10px;
+        font: size 50px;;
+        z-index: 100;
+        transform: translateY(0%);
+    }
+    
+    .prev {
+        left: 10px;
+    }
+    
+    .next {
+        right: 10px;
+    }
+    .container p{
+        font-family: "Nerko One", cursive;
+    font-weight: 400;
+    font-style: normal;
+    }
+
+    .skills.container{
+        margin-bottom: 100px;
+    }
+
+    .skill-item{
+        background-color:rgba(212, 148, 148, 0.5);
+      
+    }
+    .container-fluid p{
+        background-color: #777254;
+        color: rgb(180, 32, 32);
+    }
+    .div1{
+        margin-bottom: 50px;
+    }
+    
+     .skill-item ol li::before {
+        content: ""; /* Overrides the default number */
+    }
+
+   /* contact button style */
+    
+   
+
+   .container-fluids button{
+    left:615px;
+    bottom: 10px;
+   }
+
+    
+
+/* Footer Styles */
+.footer {
+    background-color: #0f0f0f;
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+    position:sticky;
+    width: 100%;
+    bottom: 0;
+    left: 0;
+}
+
+.footer-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.footer p {
+    margin: 0;
+    font-size: 14px;
+}
+
+/* Social Icons Styles */   /* Social Icons Styles */
+.social-icons {
+    margin-top: 10px;
+}
+
+.social-icon {
+    text-decoration: none;
+    color: #fff;
+    margin: 0 10px;
+    font-size: 18px;
+    transition: transform 0.3s ease, color 0.3s ease;
+}
+
+.social-icon:hover {
+    color: #ffd700; /* Gold color on hover */
+    transform: scale(1.1); /* Slightly enlarges the icon */
+}
+
+/* Animation Example */
+.social-icon.linkedin::before {
+    content: "";
+    display: inline-block;
+    margin-right: 5px;
+}
+
+.social-icon.gmail::before {
+    content: "";
+    display: inline-block;
+    margin-right: 5px;
+}
+
+.social-icon.github::before {
+    content: "";
+    display: inline-block;
+    margin-right: 5px;
+}
+.social-icon.whatsapp::before {
+    content: " ";
+    display: inline-block;
+    margin-right: 5px;
+}
+.social-icon.instagram::before {
+    content: "";
+    display: inline-block;
+    margin-right: 5px;
+}
+.skill-item{
+    background-color:black;
+}
+.skills-list p{
+    background-color: #ebe7d3;
+    color: rgb(180, 32, 32);
+}
+
+
+
+.glow-on-hover {
+    background-color: #cef079e3;
+    border: none;
+    color: #ddc3c3;
+    padding: 15px 30px;
+    font-size: 16px;
+    border-radius: 8px;
+    cursor: pointer;
+    position: relative;
+    outline: none;
+    transition: background-color 0.3s ease;
+}
+
+.glow-on-hover::before {
+    content: '';
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 300%;
+    height: 300%;
+    
+    transition: opacity 0.3s ease;
+    transform: translate(-50%, -50%);
+    border-radius: 50%;
+    z-index: 0;
+    opacity: 0;
+}
+
+.glow-on-hover:hover::before {
+    opacity: 1;
+}
+
+.glow-on-hover:hover {
+    background-color: #f8cab8;
+    box-shadow: 0 0 20px rgb(209, 45, 195);
+}
+
+.glow-on-hover {
+    box-shadow: 0 0 10px rgb(9, 245, 9); /* Initial glowing effect */
+}
+
